@@ -10,7 +10,7 @@ const App = () => {
 
   return (
     <div className="area flex gap-2 sm:gap-4 text-white bg-gray-950 fixed inset-0 ">
-      <ul class="circles fixed inset-0 ">
+      <ul className="circles fixed inset-0 ">
         <li></li>
         <li></li>
         <li></li>
@@ -24,7 +24,7 @@ const App = () => {
       </ul>
 
       <SideBar />
-      <div className="border content-area w-full sm:w-10/12 my-10 sm:mx-auto overflow-y-auto z-10 sm:px-4 py-6 no-scrollbar">
+      <div className=" content-area w-full sm:w-10/12 my-10 sm:mx-auto overflow-y-auto z-10 sm:px-4 py-6 no-scrollbar">
         <Outlet />
       </div>
       <ToastContainer />
